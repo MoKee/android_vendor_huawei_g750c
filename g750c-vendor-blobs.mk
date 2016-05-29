@@ -168,7 +168,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/huawei/g750c/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/huawei/g750c/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/huawei/g750c/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
     vendor/huawei/g750c/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
@@ -216,7 +215,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/huawei/g750c/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/huawei/g750c/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
-    vendor/huawei/g750c/proprietary/app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
     vendor/huawei/g750c/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/huawei/g750c/proprietary/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
     vendor/huawei/g750c/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -229,9 +227,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/etc/ons.bin:system/etc/ons.bin \
     vendor/huawei/g750c/proprietary/etc/virtualNets-conf.xml:system/etc/virtualNets-conf.xml \
     vendor/huawei/g750c/proprietary/etc/voicemail-conf.xml:system/etc/voicemail-conf.xml \
-    vendor/huawei/g750c/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
-    vendor/huawei/g750c/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/huawei/g750c/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/huawei/g750c/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
@@ -270,7 +265,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/huawei/g750c/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
-    vendor/huawei/g750c/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
     vendor/huawei/g750c/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/huawei/g750c/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
