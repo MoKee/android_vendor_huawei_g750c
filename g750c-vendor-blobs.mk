@@ -219,6 +219,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/huawei/g750c/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/huawei/g750c/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/huawei/g750c/proprietary/bin/radish:system/bin/radish \
     vendor/huawei/g750c/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/huawei/g750c/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/g750c/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -230,6 +231,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
