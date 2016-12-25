@@ -224,15 +224,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/g750c/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/huawei/g750c/proprietary/etc/ons.bin:system/etc/ons.bin \
-    vendor/huawei/g750c/proprietary/etc/virtualNets-conf.xml:system/etc/virtualNets-conf.xml \
-    vendor/huawei/g750c/proprietary/etc/voicemail-conf.xml:system/etc/voicemail-conf.xml \
     vendor/huawei/g750c/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/huawei/g750c/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
@@ -247,7 +244,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/huawei/g750c/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
