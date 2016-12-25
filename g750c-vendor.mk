@@ -255,41 +255,43 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/huawei/g750c/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
 
-# Qualcomm (TheMuppets Xiaomi cancro)
+# Qcom && RIL
 PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/huawei/g750c/proprietary/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
+    vendor/huawei/g750c/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/huawei/g750c/proprietary/bin/qmiproxy:system/bin/qmiproxy \
+    vendor/huawei/g750c/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/huawei/g750c/proprietary/bin/rfs_access:system/bin/rfs_access \
+    vendor/huawei/g750c/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
+    vendor/huawei/g750c/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/huawei/g750c/proprietary/bin/ssr_diag:system/bin/ssr_diag \
+    vendor/huawei/g750c/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/huawei/g750c/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so
-
-# Radio (TheMuppets Xiaomi cancro)
-PRODUCT_COPY_FILES += \
-    vendor/huawei/g750c/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/huawei/g750c/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/huawei/g750c/proprietary/bin/radish:system/bin/radish \
-    vendor/huawei/g750c/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/huawei/g750c/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/huawei/g750c/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
-    vendor/huawei/g750c/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/huawei/g750c/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-    vendor/huawei/g750c/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
-    vendor/huawei/g750c/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
-    vendor/huawei/g750c/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
-    vendor/huawei/g750c/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
+    vendor/huawei/g750c/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
 
 # Sensors (TheMuppets Xiaomi cancro)
 PRODUCT_COPY_FILES += \
@@ -352,8 +354,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libbtpower.so:system/vendor/lib/libbtpower.so \
     vendor/huawei/g750c/proprietary/vendor/lib/liboeminfo.so:system/vendor/lib/liboeminfo.so
-#    vendor/huawei/g750c/proprietary/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
-#    vendor/huawei/g750c/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
 
 # Update firmware
 PRODUCT_COPY_FILES += \
@@ -401,7 +401,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/etc/firmware/modem.b05:system/etc/firmware/modem.b05 \
     vendor/huawei/g750c/proprietary/etc/firmware/modem.b06:system/etc/firmware/modem.b06 \
     vendor/huawei/g750c/proprietary/etc/firmware/modem.b09:system/etc/firmware/modem.b09 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b11:system/etc/firmware/modem.b11 \
     vendor/huawei/g750c/proprietary/etc/firmware/modem.b12:system/etc/firmware/modem.b12 \
     vendor/huawei/g750c/proprietary/etc/firmware/modem.b14:system/etc/firmware/modem.b14 \
     vendor/huawei/g750c/proprietary/etc/firmware/modem.b16:system/etc/firmware/modem.b16 \
