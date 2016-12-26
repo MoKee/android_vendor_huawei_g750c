@@ -272,6 +272,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
