@@ -334,15 +334,6 @@ PRODUCT_COPY_FILES += \
 
 # Wifi (V8.0.1.0)
 PRODUCT_COPY_FILES += \
-    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
-    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
-    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
-    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b06:system/etc/firmware/wcnss.b06 \
-    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b07:system/etc/firmware/wcnss.b07 \
-    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b08:system/etc/firmware/wcnss.b08 \
-    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b09:system/etc/firmware/wcnss.b09 \
-    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/huawei/g750c/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so
 
 # Add by huawei
@@ -354,77 +345,5 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libbtpower.so:system/vendor/lib/libbtpower.so \
     vendor/huawei/g750c/proprietary/vendor/lib/liboeminfo.so:system/vendor/lib/liboeminfo.so
-
-# Update firmware
-PRODUCT_COPY_FILES += \
-    vendor/huawei/g750c/proprietary/etc/firmware/adsp.b00:system/etc/firmware/adsp.b00 \
-    vendor/huawei/g750c/proprietary/etc/firmware/adsp.b01:system/etc/firmware/adsp.b01 \
-    vendor/huawei/g750c/proprietary/etc/firmware/adsp.b02:system/etc/firmware/adsp.b02 \
-    vendor/huawei/g750c/proprietary/etc/firmware/adsp.b03:system/etc/firmware/adsp.b03 \
-    vendor/huawei/g750c/proprietary/etc/firmware/adsp.b04:system/etc/firmware/adsp.b04 \
-    vendor/huawei/g750c/proprietary/etc/firmware/adsp.b05:system/etc/firmware/adsp.b05 \
-    vendor/huawei/g750c/proprietary/etc/firmware/adsp.b06:system/etc/firmware/adsp.b06 \
-    vendor/huawei/g750c/proprietary/etc/firmware/adsp.b07:system/etc/firmware/adsp.b07 \
-    vendor/huawei/g750c/proprietary/etc/firmware/adsp.b08:system/etc/firmware/adsp.b08 \
-    vendor/huawei/g750c/proprietary/etc/firmware/adsp.b09:system/etc/firmware/adsp.b09 \
-    vendor/huawei/g750c/proprietary/etc/firmware/adsp.b10:system/etc/firmware/adsp.b10 \
-    vendor/huawei/g750c/proprietary/etc/firmware/adsp.b11:system/etc/firmware/adsp.b11 \
-    vendor/huawei/g750c/proprietary/etc/firmware/adsp.b12:system/etc/firmware/adsp.b12 \
-    vendor/huawei/g750c/proprietary/etc/firmware/adsp.mdt:system/etc/firmware/adsp.mdt \
-    vendor/huawei/g750c/proprietary/etc/firmware/cmnlib.b00:system/etc/firmware/cmnlib.b00 \
-    vendor/huawei/g750c/proprietary/etc/firmware/cmnlib.b01:system/etc/firmware/cmnlib.b01 \
-    vendor/huawei/g750c/proprietary/etc/firmware/cmnlib.b02:system/etc/firmware/cmnlib.b02 \
-    vendor/huawei/g750c/proprietary/etc/firmware/cmnlib.b03:system/etc/firmware/cmnlib.b03 \
-    vendor/huawei/g750c/proprietary/etc/firmware/cmnlib.mdt:system/etc/firmware/cmnlib.mdt \
-    vendor/huawei/g750c/proprietary/etc/firmware/isdbtmm.b00:system/etc/firmware/isdbtmm.b00 \
-    vendor/huawei/g750c/proprietary/etc/firmware/isdbtmm.b01:system/etc/firmware/isdbtmm.b01 \
-    vendor/huawei/g750c/proprietary/etc/firmware/isdbtmm.b02:system/etc/firmware/isdbtmm.b02 \
-    vendor/huawei/g750c/proprietary/etc/firmware/isdbtmm.b03:system/etc/firmware/isdbtmm.b03 \
-    vendor/huawei/g750c/proprietary/etc/firmware/isdbtmm.mdt:system/etc/firmware/isdbtmm.mdt \
-    vendor/huawei/g750c/proprietary/etc/firmware/keymaste.b00:system/etc/firmware/keymaste.b00 \
-    vendor/huawei/g750c/proprietary/etc/firmware/keymaste.b01:system/etc/firmware/keymaste.b01 \
-    vendor/huawei/g750c/proprietary/etc/firmware/keymaste.b02:system/etc/firmware/keymaste.b02 \
-    vendor/huawei/g750c/proprietary/etc/firmware/keymaste.b03:system/etc/firmware/keymaste.b03 \
-    vendor/huawei/g750c/proprietary/etc/firmware/keymaste.mdt:system/etc/firmware/keymaste.mdt \
-    vendor/huawei/g750c/proprietary/etc/firmware/mba.b00:system/etc/firmware/mba.b00 \
-    vendor/huawei/g750c/proprietary/etc/firmware/mba.mdt:system/etc/firmware/mba.mdt \
-    vendor/huawei/g750c/proprietary/etc/firmware/mc_v2.b00:system/etc/firmware/mc_v2.b00 \
-    vendor/huawei/g750c/proprietary/etc/firmware/mc_v2.b01:system/etc/firmware/mc_v2.b01 \
-    vendor/huawei/g750c/proprietary/etc/firmware/mc_v2.b02:system/etc/firmware/mc_v2.b02 \
-    vendor/huawei/g750c/proprietary/etc/firmware/mc_v2.b03:system/etc/firmware/mc_v2.b03 \
-    vendor/huawei/g750c/proprietary/etc/firmware/mc_v2.mdt:system/etc/firmware/mc_v2.mdt \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b03:system/etc/firmware/modem.b03 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b04:system/etc/firmware/modem.b04 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b05:system/etc/firmware/modem.b05 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b06:system/etc/firmware/modem.b06 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b09:system/etc/firmware/modem.b09 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b12:system/etc/firmware/modem.b12 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b14:system/etc/firmware/modem.b14 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b16:system/etc/firmware/modem.b16 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b17:system/etc/firmware/modem.b17 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b18:system/etc/firmware/modem.b18 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b19:system/etc/firmware/modem.b19 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b20:system/etc/firmware/modem.b20 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b21:system/etc/firmware/modem.b21 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b22:system/etc/firmware/modem.b22 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b23:system/etc/firmware/modem.b23 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b24:system/etc/firmware/modem.b24 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b27:system/etc/firmware/modem.b27 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b28:system/etc/firmware/modem.b28 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.b29:system/etc/firmware/modem.b29 \
-    vendor/huawei/g750c/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
-    vendor/huawei/g750c/proprietary/etc/firmware/playread.b00:system/etc/firmware/playread.b00 \
-    vendor/huawei/g750c/proprietary/etc/firmware/playread.b01:system/etc/firmware/playread.b01 \
-    vendor/huawei/g750c/proprietary/etc/firmware/playread.b02:system/etc/firmware/playread.b02 \
-    vendor/huawei/g750c/proprietary/etc/firmware/playread.b03:system/etc/firmware/playread.b03 \
-    vendor/huawei/g750c/proprietary/etc/firmware/playread.mdt:system/etc/firmware/playread.mdt \
-    vendor/huawei/g750c/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
-    vendor/huawei/g750c/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
-    vendor/huawei/g750c/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
-    vendor/huawei/g750c/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
-    vendor/huawei/g750c/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt
 
 $(call inherit-product, vendor/qcom/binaries/msm8974/graphics/graphics-vendor.mk)
