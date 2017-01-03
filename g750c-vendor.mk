@@ -198,20 +198,27 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so
 
-# GPS (TheMuppets Motorola msm8226-common)
+# GPS
 PRODUCT_COPY_FILES += \
+    vendor/huawei/g750c/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/huawei/g750c/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/huawei/g750c/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/huawei/g750c/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/huawei/g750c/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/huawei/g750c/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/huawei/g750c/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/huawei/g750c/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/huawei/g750c/proprietary/etc/quipc.conf:system/etc/quipc.conf \
     vendor/huawei/g750c/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/huawei/g750c/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/huawei/g750c/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
+    vendor/huawei/g750c/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/huawei/g750c/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/huawei/g750c/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/huawei/g750c/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/huawei/g750c/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/huawei/g750c/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
