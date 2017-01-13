@@ -252,6 +252,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/huawei/g750c/proprietary/bin/hvdcp:system/bin/hvdcp \
+    vendor/huawei/g750c/proprietary/bin/charger_monitor:system/bin/charger_monitor \
     vendor/huawei/g750c/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/huawei/g750c/proprietary/lib/libhuawei_sensor_test.so:system/lib/libhuawei_sensor_test.so \
     vendor/huawei/g750c/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
