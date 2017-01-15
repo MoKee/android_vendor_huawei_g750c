@@ -273,4 +273,13 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/huawei/g750c/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/huawei/g750c/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/huawei/g750c/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app
+    vendor/huawei/g750c/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
+    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
+    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
+    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
+    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
+    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b06:system/etc/firmware/wcnss.b06 \
+    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b07:system/etc/firmware/wcnss.b07 \
+    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b08:system/etc/firmware/wcnss.b08 \
+    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b09:system/etc/firmware/wcnss.b09 \
+    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt
