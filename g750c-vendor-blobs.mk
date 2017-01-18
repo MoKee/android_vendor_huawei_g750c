@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/etc/sound_param/g750c/Hdmi_cal.acdb:system/etc/sound_param/g750c/Hdmi_cal.acdb \
     vendor/huawei/g750c/proprietary/etc/sound_param/g750c/Headset_cal.acdb:system/etc/sound_param/g750c/Headset_cal.acdb \
     vendor/huawei/g750c/proprietary/etc/sound_param/g750c/Speaker_cal.acdb:system/etc/sound_param/g750c/Speaker_cal.acdb \
+    vendor/huawei/g750c/proprietary/etc/sound_param/g750c/workspaceFile.qwsp:system/etc/sound_param/g750c/workspaceFile.qwsp \
     vendor/huawei/g750c/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/huawei/g750c/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/huawei/g750c/proprietary/bin/oeminfo_server:system/bin/oeminfo_server \
