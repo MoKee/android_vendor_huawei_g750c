@@ -353,4 +353,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/vendor/lib/libbtpower.so:system/vendor/lib/libbtpower.so \
     vendor/huawei/g750c/proprietary/vendor/lib/liboeminfo.so:system/vendor/lib/liboeminfo.so
 
+# Charge g750c
+PRODUCT_COPY_FILES += \
+    vendor/huawei/g750c/proprietary/bin/hvdcp:system/bin/hvdcp \
+    vendor/huawei/g750c/proprietary/bin/charger_monitor:system/bin/charger_monitor
+
 $(call inherit-product, vendor/qcom/binaries/msm8974/graphics/graphics-vendor.mk)
