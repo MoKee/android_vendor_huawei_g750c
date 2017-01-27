@@ -339,9 +339,18 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
 
-# Wifi (V8.0.1.0)
+# Wifi
 PRODUCT_COPY_FILES += \
-    vendor/huawei/g750c/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so
+    vendor/huawei/g750c/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so \
+    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
+    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
+    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
+    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
+    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b06:system/etc/firmware/wcnss.b06 \
+    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b07:system/etc/firmware/wcnss.b07 \
+    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b08:system/etc/firmware/wcnss.b08 \
+    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.b09:system/etc/firmware/wcnss.b09 \
+    vendor/huawei/g750c/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt
 
 # Add by huawei
 PRODUCT_COPY_FILES += \
