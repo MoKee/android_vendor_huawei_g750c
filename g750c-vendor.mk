@@ -257,6 +257,28 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/huawei/g750c/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so
 
+# Graphics
+PRODUCT_COPY_FILES += \
+    vendor/huawei/g750c/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+    vendor/huawei/g750c/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so
+
 # Perf (TheMuppets Motorola msm8226-common)
 PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/bin/mpdecision:system/bin/mpdecision \
