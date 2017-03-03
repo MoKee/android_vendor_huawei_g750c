@@ -366,5 +366,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/huawei/g750c/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/huawei/g750c/proprietary/bin/charger_monitor:system/bin/charger_monitor
-
-$(call inherit-product, vendor/qcom/binaries/msm8974/graphics/graphics-vendor.mk)
